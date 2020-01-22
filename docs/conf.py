@@ -13,13 +13,13 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.join(os.path.abspath("."), "../sampleRTD"))
+sys.path.insert(0, os.path.join(os.path.abspath("."), os.path.abspath("../sampleRTD")))
 
 
 # -- Project information -----------------------------------------------------
 
 project = "sampleRTD"
-copyright = "2020, Author"
+copyright = "2020, @komo_fr"
 author = "@komo_fr"
 
 
