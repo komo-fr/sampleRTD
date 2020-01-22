@@ -10,6 +10,7 @@ API Reference
 
    sampleRTD.aaa
    sampleRTD.bbb
+   sampleRTD.ccc
 
 Indices and tables
 ==================
