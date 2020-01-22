@@ -13,7 +13,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.join(os.path.abspath("."), os.path.abspath("../sampleRTD")))
+sys.path.insert(0, os.path.abspath("../.."))
 
 
 # -- Project information -----------------------------------------------------
@@ -34,6 +34,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx_rtd_theme",
     "sphinx.ext.autosummary",
+    "nbsphinx",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
