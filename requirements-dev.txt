@@ -1,3 +1,4 @@
 sphinx>=2.3
 sphinx_rtd_theme
+jupyter_client
 nbsphinx
