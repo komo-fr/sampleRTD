@@ -20,7 +20,7 @@ sys.path.insert(0, "../sampleRTD")
 
 project = "sampleRTD"
 copyright = "2020, Author"
-author = "Author"
+author = "@komo_fr"
 
 
 # -- General configuration ---------------------------------------------------
