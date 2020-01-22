@@ -12,6 +12,7 @@ API Reference
    sampleRTD.bbb
    sampleRTD.ccc
    sampleRTD.ddd
+   sampleRTD.eee
 
 Tutorials
 =========
