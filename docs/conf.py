@@ -13,7 +13,7 @@
 import os
 import sys
 
-sys.path.insert(0, "../sampleRTD")
+sys.path.insert(0, os.path.join(os.path.abspath("."), "../sampleRTD"))
 
 
 # -- Project information -----------------------------------------------------
