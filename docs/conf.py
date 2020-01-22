@@ -75,3 +75,5 @@ todo_include_todos = True
 # Generate autosummary pages
 autosummary_generate = True
 
+master_doc = "index"
+
