@@ -10,6 +10,7 @@ Subpackages
    sampleRTD.bbb
    sampleRTD.ccc
    sampleRTD.ddd
+   sampleRTD.eee
 
 Submodules
 ----------
