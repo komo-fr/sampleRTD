@@ -13,6 +13,14 @@ API Reference
    sampleRTD.ccc
    sampleRTD.ddd
 
+Tutorials
+=========
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ./notebooks/*
 
 Indices and tables
 ==================
