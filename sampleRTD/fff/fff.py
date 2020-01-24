@@ -21,3 +21,13 @@ class FFF:
             [description]
         """
         print(f"do {something}")
+
+    def do_something_3(self, something: str) -> None:
+        """[summary]
+
+        Parameters
+        ----------
+        something : str
+            [description]
+        """
+        print(f"do {something}")
