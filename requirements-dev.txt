@@ -1,6 +1,4 @@
-pip>=20.0.1
+ipykernel
 sphinx>=2.3
 sphinx_rtd_theme
-ipython
-jupyter_client
 nbsphinx
