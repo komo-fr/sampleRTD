@@ -1,4 +1,4 @@
-pip>=20.1
+pip>=20.0.1
 sphinx>=2.3
 sphinx_rtd_theme
 ipython
