@@ -34,8 +34,11 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx_rtd_theme",
     "sphinx.ext.autosummary",
-    #     "nbsphinx",
+    "nbsphinx",
 ]
+
+# Use this kernel instead of the one stored in the notebook metadata:
+nbsphinx_kernel_name = "python"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
