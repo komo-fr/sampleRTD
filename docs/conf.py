@@ -91,23 +91,15 @@ master_doc = "index"
 nbsphinx_prolog = r"""
 {% set docname = env.doc2path(env.docname, base=None) %}
 
-.. raw:: html
+.. only:: html
 
-    <div style="margin-bottom: 30px; text-align: right;">
-        <a class="reference download internal" href="https://komosamplertd.readthedocs.io/en/latest/{{ docname }}">
-            Download this notebook
-        </a>
-    </div>
+    :download:`Download Notebook <https://komosamplertd.readthedocs.io/en/latest/{{ docname }}>`
 """
 
 nbsphinx_epilog = r"""
 {% set docname = env.doc2path(env.docname, base=None) %}
 
-.. raw:: html
+.. only:: html
 
-    <div style="margin-top: 30px; margin-bottom: 10px; text-align: right;">
-        <a class="reference download internal" href="https://komosamplertd.readthedocs.io/en/latest/{{ docname }}">
-            Download this notebook
-        </a>
-    </div>
+    :download:`Download Notebook <https://komosamplertd.readthedocs.io/en/latest/{{ docname }}>`
 """

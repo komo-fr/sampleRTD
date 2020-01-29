@@ -22,8 +22,6 @@ Tutorials
 
    ./notebooks/*
 
-See :download:`this notebooks <../notebooks/01_GettingStarted.ipynb>`.
-
 Indices and tables
 ==================
 
