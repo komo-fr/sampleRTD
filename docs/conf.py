@@ -17,11 +17,11 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.abspath("../.."))
 
-if Path("./notebooks").exists():
-    shutil.rmtree("./notebooks")
-if Path("./notebooks/.ipynb_checkpoints").exists():
-    shutil.rmtree("./notebooks/.ipynb_checkpoints")
-shutil.copytree("../notebooks", "./notebooks")
+if Path("./tutorials").exists():
+    shutil.rmtree("./tutorials")
+if Path("./tutorials/.ipynb_checkpoints").exists():
+    shutil.rmtree("./tutorials/.ipynb_checkpoints")
+shutil.copytree("../tutorials", "./tutorials")
 
 # -- Project information -----------------------------------------------------
 
